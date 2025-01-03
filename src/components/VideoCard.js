@@ -19,8 +19,8 @@ const VideoCard = ({ info }) => {
     }
   };
   return (
-    <div className="py-3 pt-8 w-80 shadow-md rounded-lg">
-      <img src={thumbnails.medium.url} alt="" className="rounded-lg" />
+    <div className="py-3 pt-8 w-[22rem] shadow-md rounded-lg">
+      <img src={thumbnails.medium.url} alt="" className="rounded-lg w-[22rem]"  />
       <div className="p-2 ">
         <h2
           style={{

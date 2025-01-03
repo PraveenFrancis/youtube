@@ -17,7 +17,7 @@ const Sidebar = () => {
 
   if (!isOpenHambergerMenu) return;
   return (
-    <div className="p-4 mt-3 fixed h-full top-12">
+    <div className="p-4 mt-3 fixed h-full top-12 shadow-lg">
       <div>
         <div className="flex py-4 px-4">
           <IoHome className="h-6 mr-6" />

@@ -23,7 +23,7 @@ const VideoContainer = () => {
   // console.log(videos);
 
   return (
-    <div className="flex flex-wrap justify-around px-10">
+    <div className="flex flex-wrap justify-around px-8">
       {videos.map((video) => (
         <Link key={video.etag} to={"/watch?v=" + video.id}>
           <VideoCard key={video.id} info={video} />
